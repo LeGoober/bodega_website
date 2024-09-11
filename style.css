@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h3{
+	font-size: 30px;
+}
+
+ul{
+	margin: 20px;
+}
+ul.no-bullets{
+	list-style-type: none;
+}
+
+.sidebar{
+	width: 200px;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+.sidebar li{
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+}
+.sidebar li.active{
+	
+}
+
+.main{
+	background-image: url(images/background.png);
+	background-size: cover;
+	background-attachment: fixed;
+	margin-left: 200px;
+	padding: 1px 16px;
+	height: 500px;
+	width: 100%;
+}
+
+img{
+	height: 100px;
+	width: 150px;
+}
