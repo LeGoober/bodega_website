@@ -1,54 +1,72 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>HTML 5 Boilerplate</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	
-	<body>
-		<!--This is my attempt at creating a website with only the basic idea from an inspo photo-->
-		<header>
-			<nav id="navigation">
-				<ul>
-					<li><img src="images/logo.png" alt="Bodega Logo"></li>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<section class="content_container_1">
-				<h1>
-					Welcome to the Bodega
-				</h1>
-				<p>
-					The Bodega is a beloved local establishment that has been serving the community for decades. It is a small, family-owned business that offers a wide variety of products, including groceries, snacks, beverages, and household essentials. The Bodega is known for its friendly staff, convenient location, and affordable prices. It has become a staple in the neighborhood, providing residents with easy access to everyday necessities and fostering a sense of community.
-				</p>
-			</section>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Bodega</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:ital,wght@0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-			<section class="content_container_2">
-				<!-- Additional content can go here -->
-				 <h2>The Bodega's History - The Lens of the neighbourhood</h2>
-				 <p>
-					The Bodega has a rich history that is deeply intertwined with the neighborhood it serves. It was founded in the early 1970s by a local entrepreneur who recognized the need for a convenient and accessible store in the area. Over the years, the Bodega has evolved and adapted to meet the changing needs of the community, while still maintaining its commitment to providing quality products and excellent customer service. The Bodega has become more than just a store; it has become a gathering place for neighbors to connect, share stories, and support one another. It has witnessed the growth and transformation of the neighborhood, serving as a constant presence and a symbol of resilience and community spirit.
-				</p>
-			</section>
+  <body>
+    <header>
+      <nav id="navigation">
+        <ul>
+          <li><img src="images/logo.png" alt="Bodega Logo" /></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-			<aside class="sidebar">
-				<ul id="actives" class="no-bullets">
-					<li><h3>The Bodega</h3></li>
-				</ul>
-			</aside>
-		</main>
-		<footer>
-			<!-- Footer content can go here -->
-			 <div class="footer-content">
-				<p>&copy; 2024 The Bodega. All rights reserved.</p>
-			</div>
-		</footer>
-	</body>
+    <div class="layout">
+      <!-- Sidebar FIRST in the layout wrapper -->
+      <aside class="sidebar">
+        <ul id="actives" class="no-bullets">
+          <li class="sidebar-title"><h3>The Bodega</h3></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Hours & Location</a></li>
+        </ul>
+      </aside>
+
+      <main class="main">
+        <section class="content_container_1">
+          <h1>Welcome to the Bodega</h1>
+          <p>
+            The Bodega is a beloved local establishment that has been serving
+            the community for decades. A small, family-owned business offering
+            groceries, snacks, beverages, and household essentials — known for
+            its friendly staff, convenient location, and affordable prices.
+          </p>
+        </section>
+
+        <section class="content_container_2">
+          <h2>The Bodega's History — Lens of the Neighbourhood</h2>
+          <p>
+            Founded in the early 1970s, the Bodega has a rich history deeply
+            intertwined with the neighbourhood it serves. Over the decades it
+            has evolved and adapted while staying true to its roots: quality
+            products, excellent service, and a genuine sense of community. More
+            than a store, it's a gathering place where neighbours connect, share
+            stories, and support one another.
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 The Bodega. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
